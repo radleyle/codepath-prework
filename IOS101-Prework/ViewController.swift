@@ -22,6 +22,17 @@ class ViewController: UIViewController {
         
         let randomNumber = Int.random(in: 0...(arrayOfQuotes.count-1))
         label.text = arrayOfQuotes[randomNumber]
+        
+        func changeColor() -> UIColor {
+            let red: CGFloat = CGFloat.random(in: 0...1)
+            let green: CGFloat = CGFloat.random(in: 0...1)
+            let blue: CGFloat = CGFloat.random(in: 0...1)
+            
+            return UIColor(red: red, green: green, blue: blue, alpha: 1.0)
+        }
+        
+        let randomColor = changeColor()
+        view.backgroundColor = randomColor
     }
     
 }
