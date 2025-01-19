@@ -15,9 +15,14 @@ The following **required** functionality is completed:
 
 ## App Brainstorming (Step 4)
 
+- Log-in/Sign-up feature
+- Uploading photos from phone library as background imgae
+- Adding/Deleting quotes
+- Flashcard-like UI
+
 ## Notes
 
-Describe any challenges encountered while building the app.
+Assistant switched to Appdelegate
 
 ## License
 
